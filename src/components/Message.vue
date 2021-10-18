@@ -1,6 +1,6 @@
 <template>
   <div class="message-container">
-    <p>Você {{ msg }} a luz</p>
+    <p>Você {{ msg }} a luz!</p>
   </div>
 </template>
 
@@ -17,8 +17,8 @@ export default {
 .message-container {
   position: absolute;
   right: 10px;
-  color: #FFFF;
-  background: #2ECC71;
+  color: #ffff;
+  background: #2ecc71;
   /* border: 2px solid #27AE60; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 6px;

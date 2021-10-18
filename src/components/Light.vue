@@ -10,7 +10,7 @@
         <LigarLuz @ligar="LigarLuz" @click="ligou" />
         <DesligarLuz @desligar="DesligarLuz" @click="desligou" />
       </div>
-    <Footer />
+      <Footer />
     </div>
   </div>
 </template>

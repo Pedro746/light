@@ -1,24 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Light />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Light from "@/components/Light.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Light,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+Body {
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&display=swap");
+  font-family: "Nunito", sans-serif;
+  background: #bdc3c7;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;

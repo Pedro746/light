@@ -108,4 +108,59 @@ img {
   align-items: center;
   margin: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  #container {
+    height: 540px;
+  }
+  img {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .group-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  #container {
+    height: 580px;
+  }
+  img {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .group-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #container {
+    width: 100%;
+    height: 560px;
+  }
+
+  #content {
+    width: 80%;
+    height: 250px;
+
+  }
+
+  img {
+    max-width: 150px;
+    margin-top: 40px;
+  }
+
+  .group-btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>

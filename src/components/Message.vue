@@ -38,4 +38,15 @@ export default {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .message-container {
+    margin-top: 0;
+    right: 8px;
+    border-radius: 200px 0px 0px 200px;
+
+    max-width: 300px;
+    min-width: 220px;
+  }
+}
 </style>

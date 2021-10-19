@@ -36,4 +36,11 @@ button {
   margin: 0 15px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  button {
+    width: 250px;
+    margin: 8px 10px;
+  }
+}
 </style>
